@@ -1,5 +1,5 @@
 "use strict";
-import { urlApi } from "/front/js/urlApi.js";
+import { urlApi } from "kanape-online/front/js/urlApi.js";
 const productsToLoad = await loadingProductApi();
 
 displayProductsHome();
