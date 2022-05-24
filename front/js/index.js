@@ -1,5 +1,5 @@
 "use strict";
-import { urlApi } from "./urlApi";
+import { urlApi } from "./urlApi.js";
 const productsToLoad = await loadingProductApi();
 
 displayProductsHome();
