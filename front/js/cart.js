@@ -1,8 +1,8 @@
 "use strict";
 
-import { urlApi } from "./urlApi";
+import { urlApi } from "./urlApi.js";
 import { setProductLocalStorage } from "./fonction.js";
-import { getProductsInLocalStorage } from ".fonction.js";
+import { getProductsInLocalStorage } from "./fonction.js";
 
 displayProducts();
 displaysTotalPriceOfTheItems();
