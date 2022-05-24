@@ -1,7 +1,7 @@
 "use strict";
-import { setProductLocalStorage } from "/front/js/fonction.js";
-import { getProductsInLocalStorage } from "/front/js/fonction.js";
-import { urlApi } from "/front/js/urlApi.js";
+import { setProductLocalStorage } from "./fonction.js";
+import { getProductsInLocalStorage } from "./fonction.js";
+import { urlApi } from "./urlApi.js";
 
 //- Récupération de la chaine de requète dans l'url
 const urlId = window.location.search;
@@ -90,8 +90,7 @@ function quantityConditionAddToCard() {
         productsStoreInLocalStorage.push(userChoice);
         setProductLocalStorage(productsStoreInLocalStorage);
       }
-    }
-    else {
+    } else {
       productsStoreInLocalStorage = [];
       productsStoreInLocalStorage.push(userChoice);
       setProductLocalStorage(productsStoreInLocalStorage);
